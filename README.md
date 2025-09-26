@@ -23,14 +23,16 @@
    ```
    git clone git@github.com:用户名/仓库名.git
    ```
-4. **拉取**
+3. **拉取**
     ```
     cd 你的仓库名
     git pull origin 你的分支名
-5. 推送
+    ```
+4. 推送
     ```
     cd 你的仓库名
     git add .
     git commit -m "你的提交信息"
     git push origin 你的分支名
+    ```
     

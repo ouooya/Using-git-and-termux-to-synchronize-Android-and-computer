@@ -24,11 +24,11 @@
 4. **拉取**
     ```
     cd 你的仓库名
-    git pull origin 你的分支名```
+    git pull origin 你的分支名
 5. 推送
     ```
     cd 你的仓库名
     git add .
     git commit -m "你的提交信息"
-    git push origin 你的分支名```
+    git push origin 你的分支名
     

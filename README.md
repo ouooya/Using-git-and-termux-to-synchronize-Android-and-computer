@@ -11,19 +11,23 @@
    git config --global user.email "你的邮箱"
    ```
 	3. SSH认证
-	```ssh-keygen -t ed25519 -C "你的邮箱"
+	```
+ 	ssh-keygen -t ed25519 -C "你的邮箱"
 	```
  	(一路回车使用默认设置,密钥文件路径在 `~/.ssh/id_ed25519`)
-	```cat ~/.ssh/id_ed25519.pub
+	```
+ 	cat ~/.ssh/id_ed25519.pub
 	```
  	复制输出的内容
 	5. 登录GitHub/GitLab>**Settings**（设置）> **SSH and GPG keys**>将刚才复制的公钥粘贴进去并保存
 3. **上传至仓库**
 4. **拉取**
-    ```cd 你的仓库名
+    ```
+    cd 你的仓库名
     git pull origin 你的分支名```
 5. 推送
-    ```cd 你的仓库名
+    ```
+    cd 你的仓库名
     git add .
     git commit -m "你的提交信息"
     git push origin 你的分支名```

@@ -20,11 +20,14 @@
 	```
  	复制输出的内容， 登录GitHub/GitLab>**Settings**（设置）> **SSH and GPG keys**>将刚才复制的公钥粘贴进去并保存
 2. **上传至仓库**
-3. **拉取**
+   ```
+   git clone git@github.com:用户名/仓库名.git
+   ```
+4. **拉取**
     ```
     cd 你的仓库名
     git pull origin 你的分支名
-4. 推送
+5. 推送
     ```
     cd 你的仓库名
     git add .

@@ -18,8 +18,7 @@
 	```
  	cat ~/.ssh/id_ed25519.pub
 	```
- 	复制输出的内容
-	5. 登录GitHub/GitLab>**Settings**（设置）> **SSH and GPG keys**>将刚才复制的公钥粘贴进去并保存
+ 	复制输出的内容， 登录GitHub/GitLab>**Settings**（设置）> **SSH and GPG keys**>将刚才复制的公钥粘贴进去并保存
 3. **上传至仓库**
 4. **拉取**
     ```
